@@ -1,0 +1,18 @@
+{
+    "name": "jd_seckill_cli",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "debug": "node app.js"
+    },
+    "bin": "app.js",
+    "author": "jws",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "commander": "^6.2.1",
+        "inquirer": "^7.3.3",
+        "puppeteer": "^5.5.0"
+    }
+}
