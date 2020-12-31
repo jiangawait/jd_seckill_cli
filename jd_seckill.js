@@ -77,9 +77,7 @@ const jd_buy = async (config) => {
                     console.log(chalk.green(`${itemName}加入购物车成功`));
                     await Promise.all([
                         page.waitForNavigation(),
-                        await page.click(
-                            "#result > div > div > div.success-btns.success-btns-new > div:nth-child(3) > a.btn-tobback"
-                        ),
+                        await page.click("#GotoShoppingCart"),
                     ]);
                     await Promise.all([
                         page.waitForNavigation(),
